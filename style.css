@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+header,
+section {
+  border-bottom: 4px solid hsl(0deg, 0%, 40%);
+}
+header {
+  font-size: 1.25rem;
+  color: hsl(0deg, 0%, 10%);
+  padding-bottom: 32px;
+}
+.title {
+  font-size: 1.5rem;
+  padding-top: 64px;
+  color: black;
+}
+header p {
+  max-width: 384px;
+}
+header strong {
+  color: hsl(160deg, 100%, 30%);
+}
+.indented-heading {
+  font-size: 1.25rem;
+  background-color: hsl(45deg, 100%, 50%);
+  max-width: max-content;
+  margin: 0 8px 0 -32px;
+  padding: 16px 16px 16px 32px;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+}
+
+.max-width-wrapper {
+  padding: 8px 16px;
+  background-color: white;
+  margin: auto;
+  max-width: 560px;
+}
+
+main {
+  padding: 64px 0;
+  background-color: hsl(0deg, 0%, 60%);
+}
